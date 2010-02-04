@@ -1,0 +1,11 @@
+--- tss-0.8.2/Makefile.orig	2006-09-22 09:48:22.000000000 +0200
++++ tss-0.8.2/Makefile	2010-02-04 14:26:52.952462924 +0100
+@@ -2,7 +2,7 @@
+ EXECUTABLE = tss
+ 
+ SRC    = src/main.c
+-CFLAGS = -Wall -ansi -pedantic -lcurses -lcrypt -s #-DBSD
++CFLAGS = -Wall -ansi -pedantic -lcurses -lcrypt -s -I/usr/include/ncurses #-DBSD
+ COMPILE= $(CC) $(CFLAGS)
+ CC = gcc
+ 

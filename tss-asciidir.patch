@@ -1,0 +1,11 @@
+--- tss-0.8.2/src/main.c.orig	2010-02-04 17:03:25.202400805 +0100
++++ tss-0.8.2/src/main.c	2010-02-04 17:03:57.242400026 +0100
+@@ -147,7 +147,7 @@
+ #endif
+ 
+ #define VERSION			"0.8.2"
+-#define DEFAULT_ASCII_DIR	"/etc/tss/"
++#define DEFAULT_ASCII_DIR	"/usr/share/tss/"
+ #define DEFAULT_ASCII		"default"
+ #define MAX_ASCII_SIZE		1024000
+ #define TIMEOUT			30
